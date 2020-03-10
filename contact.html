@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saron Solomon</title>
-    <link rel="icon"href="/asset/image/sharon.JFIF">
+    <link rel="icon" href="./asset/image/sharon.jfif">
 </head>
 <body>
     <hr>
-    <a herf="index.html">Home</a>
-    <a href="gallery.html">Gallery|</a>
+    <a href="index.html">Home</a>|
+    <a href="gallery.html">Gallery</a>|
     <a href="contact.html">Contact</a>
 
     <hr>
@@ -25,18 +25,23 @@
 <p> Hello,</p>
 <p >I am Saron Solomon , i am a visual arthist,photographer who have been working since 2014, and i am till working in different kind of visual basic works like graphics </p>
     <h3>contact us</h3>
+    <table>
+        <td>
     <div style="overflow:hidden;width: 700px;position: relative;"><iframe width="600" height="400" src="https://maps.google.com/maps?hl=en&amp;q=addisababa+()&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a href="https://nogomi.cc/">Nogomi</a> </small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
-    <table cell spacing="10">|
+</td>
+<td>
+    <table cell spacing="10">
         <form method="POST" action="mailto:it.saron.solomon@gmail.com" enctype="utf-8>">
         <tr>
             <td><label for="fname">First name</label></td>
-            <td><input type="text" id="fname" name="fname" required minlength="4" maxlength="8" ></td>
+            <td><input type="text" id="fname" name="fname" required minlength="4" 
+                maxlength="8" pattern="[a-z]{4-8}" ></td>
 
         </tr>
         <tr>
             <td><label for="lname">Last name</label></td>
             <td> <input type="text" id="lname"required
-                minlength="4" maxlength="10"></td>
+                minlength="4" maxlength="10" pattern="[a-z]{4-8}"></td>
          </tr> 
          <tr>
              <td><label for="email">E-mail</label></td>
@@ -46,7 +51,7 @@
         </tr>
        <td><label for="pass">Password</label></td>
        <td><input type="password" id="pass" name="password"
-           minlength="8" required></td>
+           minlength="8" required pattern="[a-z\d\A-Z\.*]{8,}"></td>
            <tr>
                <tr>
                    <td><label for="tel">phone Number</label></td>
@@ -79,5 +84,7 @@
 
     </form>
     </table>
+    </td>
+</table>
     <hr>
     <p alignn="center"></p> developed by saron solomon, 2020 </p>
