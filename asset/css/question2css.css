@@ -1,0 +1,27 @@
+.cell{
+    width:100px;
+    height: 100px;
+    float: left;
+}
+
+#aa{
+    align-content: center;
+    padding: 100px 500px;
+}
+.b{
+    width: 320px;
+
+}
+.l{
+    border-right: 5px solid black;
+}
+.r{
+    border-left: 5px solid black;
+
+}
+.a{
+    border-bottom: 5px solid black;
+}
+.c{
+    border-top: 5px solid black;
+}
