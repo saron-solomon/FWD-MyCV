@@ -8,50 +8,107 @@
 </head>
 <body>
     <hr>
-    <a href="index.html">Home</a>|
-    <a href="gallery.html">Gallery</a>|
-    <a href="contact.html">Contact</a>
+    <nav>
+        <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="blog.html">blog</a></li>
+    </ul>
+    </nav>
+</header>
+<div class="contact">
+    <div id="part1" class="parts">
+        <div id="pp"><img src="asset/image/rounded_corners.jpg" alt="saron profile image" ></div>
+        <div id="intro"><h1>Saron Solomon </h1>
+            <h3>student, addis ababa Institute of technology</h3>
+            <p> Hello,</p>
+            <p >I am Saron Solomon , i am a visual arthist,photographer who have been working since 2014, and i am till working in different kind of visual basic works like graphics </p>
+</div>
+<div class="parts">
+    <div id="map"><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400" 
+    <div id="cantform">
+        <div class="item 1" id="leave">
+            <strong>contact us</strong>
+        </div>
+        <form method="POST" action="mailto:it.saron.solomon@gmail.com" enctype="utf-8>">
+            <div class="item1">
+                <div class="labels"><label for="fname">First name</label> </div>
+                <div class="inputs" id="inp1"><input type="text" id="fname" name="fname" required
+                minilength ="4" maxlength="10" placeholer="4 to 8characters"pattern="[a-z]{4-8}">
+            </div>
 
-    <hr>
-    <table>
-        <tr>
-            <td><img src="asset/image/rounded_corners.jpg" alt="saron profile image" width="50%"></td>
-            
-            <td><p>i am Saron .i am ITSC student in AAIT  </p</td>
-        </tr>
-    </table>
-    <h1>Saron Solomon </h1>
-<h3>student, addis ababa Institute of technology</h3>
-<p> Hello,</p>
-<p >I am Saron Solomon , i am a visual arthist,photographer who have been working since 2014, and i am till working in different kind of visual basic works like graphics </p>
-    <h3>contact us</h3>
+            <div class="item1">
+                <div class="labels"><label for="lname">Last name</label> </div>
+                <div class="inputs" id="inp2"><input type="text" id="lname" name="lname" required
+                minilength ="4" maxlength="10" placeholer="4 to 8characters"pattern="[a-z]{4-8}">
+            </div>
+
+            <div class="item1">
+            <div class="labels"><label for="email">E-mail</label></div></div>
+            <div class="input" id="inp3"><input type="email" id="email">
+            </div>
+
+                <div class="item1">
+                <div class="labels"><label for="pass">Password</label></div>
+                <div class="inputs" id="inp5"><input type="password" id="pass" name="password"
+                    minlength="8" required pattern="[a-z\d\A-Z\.*]{8,}">
+                </div>
+
+                    <div class="item1">
+                        <div class="labels"><label for="country">country</label></div>
+                        <div class="inputs" id="inp6"><select name="country" id="">
+                        <option value="As">Asia</option>
+                        <option value="Af">Africa</option>
+                        </select> </div>
+                    </div>
+
+
+
+                    <div class="item1">
+                        <div class="labels"><label for="detail" id="what">what do you say</label>
+                        </div>
+
+                   <div class="item1">
+                       <div id="inp7"><textarea name="detail" id="detail" cols="30" rows="30"></textarea> 
+                    </div>
+                       <div id="submit"><input type="submit" value="SUBMIT"></div>
+                   </td>
+
+
+
+
+  
     <table>
         <td>
-    <div style="overflow:hidden;width: 700px;position: relative;"><iframe width="600" height="400" src="https://maps.google.com/maps?hl=en&amp;q=addisababa+()&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a href="https://nogomi.cc/">Nogomi</a> </small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+    <div style="overflow:hidden;width: 700px;position: relative;">src="https://maps.google.com/maps?hl=en&amp;q=addisababa+()&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a href="https://nogomi.cc/">Nogomi</a> </small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
 </td>
 <td>
     <table cell spacing="10">
-        <form method="POST" action="mailto:it.saron.solomon@gmail.com" enctype="utf-8>">
+        
         <tr>
-            <td><label for="fname">First name</label></td>
+            <td></td>
             <td><input type="text" id="fname" name="fname" required minlength="4" 
-                maxlength="8" pattern="[a-z]{4-8}" ></td>
+                maxlength="8"  ></td>
 
         </tr>
         <tr>
             <td><label for="lname">Last name</label></td>
             <td> <input type="text" id="lname"required
                 minlength="4" maxlength="10" pattern="[a-z]{4-8}"></td>
+
+
+
+
+
+                
          </tr> 
          <tr>
-             <td><label for="email">E-mail</label></td>
-              <td> <input type="email" id="email"></td>  
+            
          </tr>      
 
         </tr>
-       <td><label for="pass">Password</label></td>
-       <td><input type="password" id="pass" name="password"
-           minlength="8" required pattern="[a-z\d\A-Z\.*]{8,}"></td>
+      
            <tr>
                <tr>
                    <td><label for="tel">phone Number</label></td>
@@ -59,27 +116,7 @@
                </tr>
            </tr>
            <tr>
-           <td>Country </td>
-           <td> <select name="country" id="">
-                <option value="As">Asia</option>
-                <option value="Af">Africa</option>
-                </select>
-           </td>
-</tr>
-</table>
-<table>
-<tr>
-    <label>
-        Leave your comment here
-    </label>
-</tr>      
-
-</table>
-<table>
-  
-        <tr>
-        <textarea name="" id="" cols="30" rows="10"></textarea><br>
-        <input type="submit" name ="Submit"></tr>
+      
 
 
     </form>
@@ -87,4 +124,4 @@
     </td>
 </table>
     <hr>
-    <p align="center">Developed by Saron Solomon, 2020 &copy;</p>
+    <p>developed by Saron Solomon, 2020 &copy;</p>
