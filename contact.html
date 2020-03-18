@@ -34,8 +34,8 @@
       frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
       <a href="https://nogomi.cc/">Nogomi</a>
     </div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
-
-     <div class="item 1" id="leave">
+    <div id="contform">
+        <div class="item 1" id="leave">
 
             <strong>contact us</strong>
         </div>
@@ -43,43 +43,65 @@
             <div class="item1">
                 <div class="labels"><label for="fname">First name</label> </div>
                 <div class="inputs" id="inp1"><input type="text" id="fname" name="fname" required
-               git
+                    minilength ="4" maxlength="10" placeholer="4 to 8characters"pattern="[a-z]{4-8}">
 
             <div class="item1">
                 <div class="labels"><label for="lname">Last name</label> </div>
                 <div class="inputs" id="inp2"><input type="text" id="lname" name="lname" required
                 minilength ="4" maxlength="10" placeholer="4 to 8characters"pattern="[a-z]{4-8}">
             </div>
+            </div>
 
             <div class="item1">
             <div class="labels"><label for="email">E-mail</label></div></div>
-            <div class="input" id="inp3"><input type="email" id="email">
+            <div class="input" id="inp3"><input type="email" id="email" name="email"
+                placeholer="somename@example.com"> </div>
             </div>
 
                 <div class="item1">
                 <div class="labels"><label for="pass">Password</label></div>
-                <div class="inputs" id="inp5"><input type="password" id="pass" name="password"
+                <div class="input4" id="inp5"><input type="password" id="pass" name="password"
                     minlength="8" required pattern="[a-z\d\A-Z\.*]{8,}">
+                </div>
                 </div>
 
                     <div class="item1">
                         <div class="labels"><label for="country">country</label></div>
-                        <div class="inputs" id="inp6"><select name="country" id="">
+                        <div class="input5" id="inp5"><select name="country" id="">
                         <option value="As">Asia</option>
                         <option value="Af">Africa</option>
                         </select> </div>
                     </div>
 
-
-
-                    <div class="item1">
-                        <div class="labels"><label for="detail" id="what">what do you say</label>
+                      <div class="item1">
+                        <div class="labels"><label for="detail" id="what">what do you say?</label></div>
                         </div>
 
                    <div class="item1">
-                       <div id="inp7"><textarea name="detail" id="detail" cols="30" rows="30"></textarea> 
+                       <div id="inp6"><textarea name="detail" id="detail" cols="30" rows="20" placeholder="enter your own text here" ></textarea> 
                     </div>
                        <div id="submit"><input type="submit" value="SUBMIT"></div>
+                   </div>
+            </div>
+            </div>
+    </div>
+    <div class="footer">
+       <a href="http://www.facebook.com">Facebook</a>
+
+
+       <p>developed by Saron Solomon, 2020 &copy;</p>
+
+    </div>
+
+
+</div>
+    </div>
+
+
+    </body>
+</html>
+
+
                    
 
 
@@ -87,50 +109,4 @@
 
   
    
-       
-    <div style="overflow:hidden;width: 700px;position: relative;">src="https://maps.google.com/maps?hl=en&amp;q=addisababa+()&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 0px;background: #fff;"> <a href="https://nogomi.cc/">Nogomi</a> </small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
-</td>
-<td>
-    <table cell spacing="10">
-        
-        <tr>
-            <td></td>
-            <td><input type="text" id="fname" name="fname" required minlength="4" 
-                maxlength="8"  ></td>
-
-        </tr>
-        <tr>
-            <td><label for="lname">Last name</label></td>
-            <td> <input type="text" id="lname"required
-                minlength="4" maxlength="10" pattern="[a-z]{4-8}"></td>
-
-
-
-
-
-                
-         </tr> 
-         <tr>
-            
-         </tr>      
-
-        </tr>
-      
-           <tr>
-               <tr>
-                   <td><label for="tel">phone Number</label></td>
-                   <td> <input type="tel" id="tel" name="tel"> </td>
-               </tr>
-           </tr>
-           <tr>
-      
-
-
-    </form>
-    </table>
-    </td>
-</table>
-    <hr>
-    <p>developed by Saron Solomon, 2020 &copy;</p>
-    </div>
-    </div>
+ 
