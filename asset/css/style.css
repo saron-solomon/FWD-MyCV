@@ -1,8 +1,14 @@
 
 body{
-    background-color: seagreen;
+    background-color: lightgreen;
     border: solid 10px;
-    margin: auto;
+    margin: 10px;
+    font-size: 1.5 rem;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+figure{
+    display: inline;
 }
 header{
     background-color: #775a5ab3;
@@ -10,17 +16,75 @@ header{
     top: 50px;
 }
 section{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px 30px;
-    margin-top: ;
+    margin-top:70px ;
     
 }
 article{
     font: 15px;
-    line-height: 25px;
+    line-height: 15px;
+    text-align: justify;
 }
 title{
     font-size: 23px;
     font-weight: 23px;
 }
-nav>ul>
+.date{
+    font-style:italic;
+    font-size:15px;
+    text-transform:uppercase;
+}
+
+nav > ul > li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+    margin: 0 10px;
+    
+}
+nav > ul > li >a{
+    text-decoration: none;
+}
+nav > ul > li:hover{
+    background-color: #ffffff;
+}
+#g{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding-bottom: 1px solid lightgrey;
+    padding-top: 65px;
+
+}
+.images{
+    flex: 100%;
+    width: 100%;
+}
+.main{
+    margin: 20px;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+}
+.photo{
+    display: block;
+
+}
+#img{
+    float: left;
+    margin-right: 30px;
+}
+#prt{
+    padding-top: 35px;
+}
+.prt1{
+    border-bottom: 1px solid lightgray;
+}
+#map{
+    align-self: left;
+    display: inline-block;
+    margin-right: 30px;
+}
